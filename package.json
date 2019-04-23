@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/adamfitzpatrick/generic-get-lambda.git"
+    "url": "git+https://github.com/adamfitzpatrick/mighty-runner-enqueue-lambda.git"
   },
   "keywords": [
     "DynamoDB",
@@ -22,9 +22,9 @@
   "author": "Adam Fitzpatrick",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/adamfitzpatrick/generic-get-lambda/issues"
+    "url": "https://github.com/adamfitzpatrick/mighty-runner-enqueue-lambda/issues"
   },
-  "homepage": "https://github.com/adamfitzpatrick/generic-get-lambda#readme",
+  "homepage": "https://github.com/adamfitzpatrick/mighty-runner-enqueue-lambda#readme",
   "devDependencies": {
     "ajv": "6.10.0",
     "aws-sdk": "2.438.0",

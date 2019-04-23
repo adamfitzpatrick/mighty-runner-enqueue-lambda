@@ -2,16 +2,16 @@
 
 variable "function_name" {
     description = "Name of lambda function as deployed to AWS"
-    default     = "get-lambda"
+    default     = "enqueue-lambda"
 }
 
 variable "topic_arn" {
-    description = "ARN used for restricting lambda access to a specific dynamo table"
+    description = "ARN used for restricting lambda access to a specific SNS topic"
     default     = "*"
 }
 
 variable "object_id_field" {
-    description = "Sort key name for the DynamoDB source table"
+    description = "Name of the ID field associated with the message payload to be queued for saving"
     default     = ""
 }
 
