@@ -10,6 +10,10 @@ variable "topic_arn" {
     default     = "*"
 }
 
+variable "auth_token_field" {
+    description = "Name of field in payload which corresponds to the auth token'"
+}
+
 variable "object_id_field" {
     description = "Name of the ID field associated with the message payload to be queued for saving"
     default     = ""

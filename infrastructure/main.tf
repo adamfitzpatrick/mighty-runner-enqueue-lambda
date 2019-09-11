@@ -46,9 +46,10 @@ resource "aws_lambda_function" "enqueue-lambda_function" {
 
     environment {
         variables = {
-            TOPIC_ARN       = "${var.topic_arn}"
-            OBJECT_ID_FIELD = "${var.object_id_field}"
-            REGION          = "${var.region}"
+            TOPIC_ARN        = "${var.topic_arn}"
+            AUTH_TOKEN_FIELD = "${var.auth_token_field}"
+            OBJECT_ID_FIELD  = "${var.object_id_field}"
+            REGION           = "${var.region}"
         }
     }
 }
